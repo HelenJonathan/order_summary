@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-width: 100%;
+}
+
+.outer_container {
+    background: url(images/pattern-background-mobile.svg);
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+.card {
+    min-width: 55vh;
+    min-height: auto;
+}
+.music_hero {
+    max-width: 55vh;
+    border: transparent;
+    border-radius: 20px 20px 0px 0px;
+}
+.content {
+    margin-top: -4px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: white;
+}
+.bold_text {
+    color: hsl(225, 14%, 22%);
+    padding: 15px 0px;
+    font-weight: 700;
+    font-family: 'Red Hat Display', sans-serif; 
+}
+.text {
+    text-align: center;
+}
+.description {
+    color: hsl(224, 23%, 55%);
+    padding: 10px 0px;
+    font-weight: 200;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.music_price {
+    border-radius: 10px;
+    margin: 20px  0px;
+    padding: 15px 0px;
+    min-width: 10%;
+    display: flex;
+    justify-content: space-around;
+    background-color:hsl(225, 100%, 98%) ;
+}
+.music_icon {
+    max-width: 35px;
+}
+.price {
+    color: hsl(225, 14%, 22%);
+    font-weight: 200;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.amount {
+    color: hsl(224, 23%, 55%);
+    font-weight: 200;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.change {
+    color: hsl(245, 75%, 52%);
+    font-weight: 200;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    min-width: 45vh;
+    padding: 15px 0px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    margin: 10px 0px;
+    border: transparent;
+}
+button .btn {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+p .order {
+    font-weight: 200;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 10px 0px;
+    text-decoration: none;
+    color:hsl(224, 23%, 55%) ;
+}
+.attribution p a {
+    text-decoration: none;
+    color:hsl(224, 23%, 55%) ;
+    font-weight: 200;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.attribution p {
+    color: hsl(225, 14%, 22%);
+    font-weight: 200;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.attribution {
+    text-align: center;
+    padding: 5px 0px;
+}
+@media screen and (min-width: 768px) {
+    .outer_container {
+        background: url(images/pattern-background-desktop.svg);
+    }
+    .card {
+        min-width: 55vh;
+    }
+}
